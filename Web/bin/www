@@ -1,0 +1,23 @@
+var app = require('../main');
+var http = require('http');
+var mosca = require('mosca');
+
+app.set('port', process.env.PORT || 80);
+
+var server = {
+	HTTP: http.createServer(app),
+	
+	MQTT: new mosca.Server({
+		http: {
+			port: 3000,
+			bundle:true,
+			static: './'
+		}
+	})
+};
+
+server.MQTT.on('published', function(packet, client) {
+  console.log(packet.payload);
+});
+
+server.HTTP.listen(process.env.PORT || 80);

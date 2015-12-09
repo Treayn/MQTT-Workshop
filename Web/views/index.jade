@@ -1,0 +1,32 @@
+extends layout
+
+block content
+  link(rel="stylesheet" type="text/css" href="/public/css/index.css")
+  script(src="/public/js/mqttws31.js")
+  
+  
+  div.textColumn
+    h1 MQTT Web Controller
+    p Welcome to the Robotics with Node.js workshop!
+  
+  div.linksColumn
+    div
+      h2 Hold to Light
+      div.controlButton(onmousedown="LightOn()" onmouseup="LightOff()") Light
+      
+    div
+      h2 Set Color
+      div.controlButton(onclick="Red()") Toggle Red
+      div.controlButton(onclick="Green()") Toggle Green
+      div.controlButton(onclick="Blue()") Toggle Blue
+    
+    div
+      h2 Set Motor Speed
+      div.controlButton(onclick="Faster()") Increase Speed
+      div.controlButton(onclick="Slower()") Decrease Speed
+    
+    div
+      h2 Read Potentiometer
+      div.controlButton(onclick="ReadPot()") Read
+    
+    script(src="/public/js/websocket.js")

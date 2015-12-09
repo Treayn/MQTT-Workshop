@@ -1,0 +1,15 @@
+{
+  "name": "mqtt-workshop",
+  "version": "0.1.0",
+  "description": "A demonstration of web control of embedded systems via MQTT, written in Node.js (Web Backend).",
+  "scripts": {
+    "start": "node bin/www"
+  },
+  "dependencies": {
+	"express": "~4.12.2",
+    "jade": "~1.9.2",
+	"mosca": "*"
+  },
+  "author": "Eric Tung",
+  "license": "ISC"
+}

@@ -1,0 +1,72 @@
+{
+  "project": {
+    "projectSettingsVersion": "2.0.0",
+    "initialAutoPluginCount": 0,
+    "currentBuildConfiguration": "Android",
+    "projectFiles": {},
+    "projectDirectories": {}
+  },
+  "iot-tab": {
+    "fileStatus": {
+      "control.js": {
+        "previousModTime": 1447915969497,
+        "modified": 1447915969497,
+        "seen": true,
+        "name": "control.js"
+      },
+      "icon.png": {
+        "previousModTime": 1447884871369,
+        "modified": 1447884871369,
+        "seen": true,
+        "name": "icon.png"
+      },
+      "main.js": {
+        "previousModTime": 1447914244134,
+        "modified": 1447914244134,
+        "seen": true,
+        "name": "main.js"
+      },
+      "MQTT-Workshop.xdk": {
+        "previousModTime": 1447884871505,
+        "modified": 1447884871505,
+        "seen": true,
+        "name": "MQTT-Workshop.xdk"
+      },
+      "MQTT-Workshop.xdke": {
+        "previousModTime": 1447915914901,
+        "modified": 1447915914901,
+        "seen": true,
+        "name": "MQTT-Workshop.xdke"
+      },
+      "package.json": {
+        "previousModTime": 1447896933160,
+        "modified": 1447896933160,
+        "seen": true,
+        "name": "package.json"
+      },
+      "pins.js": {
+        "previousModTime": 1447915090640,
+        "modified": 1447915090640,
+        "seen": true,
+        "name": "pins.js"
+      },
+      "README.md": {
+        "previousModTime": 1447884871370,
+        "modified": 1447884871370,
+        "seen": true,
+        "name": "README.md"
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1447884871489,
+        "modified": 1447884871489,
+        "seen": true,
+        "name": "xdk/project-info.json"
+      }
+    },
+    "boardFileStatus": {
+      "control.js": {
+        "previousModTime": 1447915971957
+      }
+    }
+  }
+}

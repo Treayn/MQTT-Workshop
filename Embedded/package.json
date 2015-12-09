@@ -1,0 +1,15 @@
+{
+  "name": "mqtt-workshop-edison",
+  "description": "A demonstration of web control of embedded systems via MQTT, written in Node.js (Edison-Side).",
+  "version": "0.1.0",
+  "main": "main.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+      "mqtt": "*",
+      "mraa": "*"
+  },
+  "author": "Eric Tung",
+  "license": "ISC"
+}
